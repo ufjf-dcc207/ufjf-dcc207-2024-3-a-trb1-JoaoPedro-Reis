@@ -1,0 +1,33 @@
+.nivel {                                                        /* GRID */
+    background-color: rgb(248, 182, 84);
+    height: 40px;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    place-items: center;
+    border-left: 2px solid #000000;
+    border-right: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+
+    .poder {                                                    /* FLEXBOX */
+        color: white;
+        background-color: rgb(74, 12, 68);
+        height: 44px;
+        width: 44px;
+        font-size: 1.2em;
+        font-weight: 900;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 1.5px;
+        border-radius: 50%;
+        border: 2px solid black;
+        text-shadow:-1px 0 0 black, 1px 0 0 black, 0 -1px 0 black, 0 2px 0 black, -1px -1px 0 black, 1px 2px 0 black, -1px 2px 0 black, 1px -1px 0 black;
+    }
+
+    .maximo {
+        color: white;
+        font-size: 1.1em;
+        font-weight: 900;
+        text-shadow:-1px 0 0 black, 1px 0 0 black, 0 -1px 0 black, 0 2px 0 black, -1px -1px 0 black, 1px 2px 0 black, -1px 2px 0 black, 1px -1px 0 black;
+    }
+}

@@ -1,0 +1,39 @@
+.brawl {
+    .acessorio {
+        font-size: 1.1em;
+        position: absolute;
+        left: 223px;
+        top: 0px;
+    }
+
+    .eng1 {
+        font-size: 1.1em;
+        position: absolute;
+        left: 223px;
+        top: 29px;
+     }
+    
+    .powerStar {
+        font-size: 1.1em;
+        position: absolute;
+        left: 223px;
+        top: 58px;
+    }
+
+    .eng2 {
+        font-size: 1.1em;
+        position: absolute;
+        left: 223px;
+        top: 87px;
+    }
+
+    .nome {
+        color: white;
+        font-size: 1.1em;
+        font-weight: 900;
+        text-shadow:-1px 0 0 black, 1px 0 0 black, 0 -1px 0 black, 0 2px 0 black, -1px -1px 0 black, 1px 2px 0 black, -1px 2px 0 black, 1px -1px 0 black;
+        position: absolute;
+        left: 190px;
+        top: 140px;
+    }
+}

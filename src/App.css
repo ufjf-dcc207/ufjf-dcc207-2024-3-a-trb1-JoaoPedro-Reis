@@ -1,0 +1,37 @@
+#root {
+  margin: 0 auto;
+  display: grid;
+  place-items: center;
+}
+
+.app {
+  max-width: 1000px;
+  max-height: 100vh;  
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 30px;
+
+  .layout {
+    max-width: 250px;
+    max-height: 235px;
+  }
+
+    .imagem {
+      width: 246px;
+      height: 170px;
+      position: relative;
+      border-left: 2px solid #000000;
+      border-right: 2px solid #000000;
+      border-bottom: 2px solid #000000;
+      border-top: 2px solid #000000;
+    
+
+    .brawler {
+      width: 180px;
+      height: 170px;
+      top: 1000px;
+    }
+  }
+}
